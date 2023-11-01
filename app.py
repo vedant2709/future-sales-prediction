@@ -21,7 +21,7 @@ def main():
     radio = st.text_input("Radio")
     newspaper = st.text_input("Newspaper")
 
-    if st.button("Predict the age"):
+    if st.button("Predict the sales"):
         output = predict_sales(tv,radio,newspaper)
         st.success('The sales is {}'.format(output))
 
